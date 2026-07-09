@@ -11,7 +11,6 @@ Factories choose components under competing objectives: cost, productivity, and 
 ## The approach
 
 - **Genetic algorithm (Python)**: evolves component selections against a multi-objective fitness function, converging in 10 to 20 seconds on 1,000-component datasets
-- **Deep neural network (MATLAB)**: predicts emissions outcomes, reaching R = 0.97 on the test set
 
 ## Results
 
@@ -19,7 +18,7 @@ Factories choose components under competing objectives: cost, productivity, and 
 | --- | --- |
 | Dataset size | 1,000 components |
 | Optimization time | 10 to 20 seconds |
-| DNN test accuracy | R = 0.97 |
+
 | Cost and productivity | preserved within constraints |
 
 ## Status
